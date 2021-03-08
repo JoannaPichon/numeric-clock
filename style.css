@@ -1,0 +1,67 @@
+/* -- general --- */
+
+*{
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;    margin: 0;
+    font-size: 100vw;
+/*animation-name: opacity;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;*/
+
+	}
+
+body {
+   
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+#points {
+	animation-name: clignote;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+}
+
+.conteneur {
+	height: 80vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.horloge {
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	height: 40%;
+	padding: 25px;
+	border: solid 5px black;
+	border-radius: 35px;
+}
+
+.chiffres {
+	width: 90%;
+	height: 100%;
+	border: solid 5px black;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#heures, #minutes, #points {
+	font-size: 23%;	
+	text-align: center;
+	padding: 1px;
+}
