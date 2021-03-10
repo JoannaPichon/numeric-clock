@@ -34,7 +34,7 @@ body {
 }
 
 .conteneur {
-	height: 80vw;
+	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,8 +44,8 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	width: 90%;
-	height: 40%;
-	padding: 25px;
+	height: 27vw;
+	padding: 2%;
 	border: solid 5px black;
 	border-radius: 35px;
 }
